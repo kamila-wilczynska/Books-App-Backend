@@ -6,7 +6,7 @@ const booksRouter = require('./routes/Books');
 const app = express();
 
 const corsOptions = {
-	origin: 'https://book-app-backend-and-frontend.netlify.app/',
+	origin: 'https://book-app-backend-and-frontend.netlify.app',
 	optionsSuccessStatus: 200
 };
 
